@@ -28,19 +28,19 @@ A **Technical Officer Management System** for a customer care platform, designed
 ## Screenshots
 
 - **Login Page**
-
+![Image](https://github.com/user-attachments/assets/5e3943ec-7187-410d-983c-d41aacfa48d3)
 
 
 - **Profile Page**
+![Image](https://github.com/user-attachments/assets/901c5fcd-cc98-4b86-b386-08f80d4afbc8)
 
 
-
-- **Technical Problem List**
-
+- **Password change model**
+![Image](https://github.com/user-attachments/assets/900e5906-3aed-4d70-b13b-c01fed884df3)
 
 
 - **Daily Summary Page**
-
+![Image](https://github.com/user-attachments/assets/e2228714-7afa-44e2-b89b-869cf6b4237c)
 
 
 ## Installation and Setup
@@ -71,13 +71,13 @@ Run the following SQL command to create the database:
 CREATE DATABASE customer_care_system;
 ```
 
-Import the provided **database file (**``**)** into MySQL:
+Import the provided **database file (**customer_care_system.sql**)** into MySQL:
 
 ```bash
 mysql -u your-username -p customer_care_system < customer_care_system.sql
 ```
 
-Update **DatabaseConnection.java** with your database credentials:
+Update **DBConnection.java** with your database credentials:
 
 ```java
 private static final String URL = "jdbc:mysql://localhost:3306/customer_care_system";
