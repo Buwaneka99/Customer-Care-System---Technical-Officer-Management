@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+.side-ul {
+    max-width: 61%; 
+    height: 60px; 
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* Even spacing */
+    align-items: center;
+    padding: 0;
+    margin: 20px auto; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+/* List Items */
+.side-ul li {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; /* Smooth transitions */
+}
+
+/* Hover Effect for All Items */
+.side-ul li:not(.logout):hover {
+    background: #404040; /* Darker hover effect */
+    border-radius: 10px; /* Slight curve for hover */
+}
+
+/* Profile-specific Hover for Rounded Left Side */
+.side-ul li.profile:hover {
+    border-top-left-radius: 15px; /* Match parent */
+    border-bottom-left-radius: 15px;
+}
+
+/* Anchor Tags */
+.side-ul li a {
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* Logout Button */
+.side-ul li.logout button {
+    background-color: #e60028; /* Red logout button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-weight: bold;
+    font-size: 18px;
+	margin-left: auto;
+    margin-right: 10px;
+}
+
+.side-ul li.logout button:hover {
+    background-color: #BA0021; /* Darker red on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+/* Responsive Design for Smaller Screens */
+@media screen and (max-width: 768px) {
+    .side-ul {
+        flex-direction: column; /* Stack vertically */
+        height: auto;
+    }
+
+    .side-ul li {
+        padding: 10px;
+        width: 100%; /* Full width for smaller screens */
+    }
+}

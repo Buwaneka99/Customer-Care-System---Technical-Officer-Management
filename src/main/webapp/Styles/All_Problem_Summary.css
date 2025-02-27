@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body{
+	background-image: url("../Images/Technical_Officer.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+.h1-name{
+	font-family: "Audiowide", sans-serif;
+	text-align: center;
+	color: white;
+	margin-top: 50px;
+	padding-bottom: 10px;
+}
+
+table {
+    width: 88%;
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+table td{
+	background-color: #eeeeee;
+}    
+table tr:hover td {
+    background-color: #c6f7fb;
+}
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Adjust Problem and Answer Columns */
+td, th:nth-child(7){ /* Target Problem and Answer columns */
+    word-wrap: break-word; /* Wrap long words */
+    max-width: 250px; /* Limit width */
+    overflow: hidden; /* Hide overflow */
+    white-space: normal; /* Allow wrapping */
+}

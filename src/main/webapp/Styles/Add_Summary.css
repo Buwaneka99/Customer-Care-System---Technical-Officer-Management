@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+body{
+	
+	background-image: url("../Images/Technical_Officer.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+.h1-name{
+	font-family: "Audiowide", sans-serif;
+	text-align: center;
+	color: white;
+	margin-top: 50px;
+	padding-bottom: 10px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.second-content {
+	font-family: Arial, sans-serif;
+    background: #ffffff;
+    padding: 20px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    font-family: 'Audiowide', sans-serif;
+}
+
+.second-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.second-content label {	
+    margin-top: 20px;
+}
+
+.second-content label.date {	
+    margin-top: 0px;
+}
+
+label[for]:not([for="date"]):after {
+    content: " *";
+    color: red;
+}
+
+.second-content input[type="text"],
+.second-content input[type="number"],
+.second-content select, 
+.second-content textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Verdana , sans-serif;
+}
+
+.second-content textarea {
+    resize: none;
+    height: 200px;
+}
+
+.second-content button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.second-content button:hover {
+    background-color: #0056b3;
+}
+
+.second-content input:focus, 
+.second-content select:focus, 
+.second-content textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
