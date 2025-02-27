@@ -1,6 +1,6 @@
-# Technical Officer Management System - Customer Care
+# Customer Care System - Technical Officer Management
 
-A **Technical Officer Management System** for a customer care platform, designed to handle technical officer operations such as profile management, responding to customer issues, and maintaining daily summaries. Built using **Java**, **JSP**, **Servlets**, **MySQL**, and follows the **MVC (Model-View-Controller)** architecture.
+A **Technical Officer Management System** for a customer care platform, designed to handle technical officer operations such as profile management, responding to customer and agent issues, and maintaining daily summaries. Built using **Java**, **JSP**, **Servlets**, **MySQL**, and follows the **MVC (Model-View-Controller)** architecture.
 
 ## Features
 
