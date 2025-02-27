@@ -48,7 +48,7 @@ A **Technical Officer Management System** for a customer care platform, designed
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/technical-officer-crud.git
+https://github.com/Buwaneka99/Customer-Care-Systems---Technical-officer.git
 ```
 
 ### 2. Import the Project into Eclipse
