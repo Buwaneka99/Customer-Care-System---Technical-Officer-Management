@@ -28,7 +28,19 @@ A **Technical Officer Management System** for a customer care platform, designed
 ## Screenshots
 
 - **Login Page**
+![Image](https://github.com/user-attachments/assets/5e3943ec-7187-410d-983c-d41aacfa48d3)
 
+
+- **Profile Page**
+![Image](https://github.com/user-attachments/assets/901c5fcd-cc98-4b86-b386-08f80d4afbc8)
+
+
+- **Password change model**
+![Image](https://github.com/user-attachments/assets/900e5906-3aed-4d70-b13b-c01fed884df3)
+
+
+- **Daily Summary Page**
+![Image](https://github.com/user-attachments/assets/e2228714-7afa-44e2-b89b-869cf6b4237c)
 
 
 ## Installation and Setup
